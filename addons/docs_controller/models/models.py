@@ -3,9 +3,9 @@
 # from odoo import models, fields, api
 
 
-# class docs(models.Model):
-#     _name = 'docs.docs'
-#     _description = 'docs.docs'
+# class docs_controller(models.Model):
+#     _name = 'docs_controller.docs_controller'
+#     _description = 'docs_controller.docs_controller'
 
 #     name = fields.Char()
 #     value = fields.Integer()
