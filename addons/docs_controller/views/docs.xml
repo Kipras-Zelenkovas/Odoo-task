@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+    <record id="documents_tree" model="ir.ui.view">
+        <field name="name">documents.tree</field>
+        <field name="model">docs</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="description" />
+                <field name="res_company" />
+            </tree>
+        </field>
+    </record>
+
     <record id="documents_action" model="ir.actions.act_window">
         <field name="name">Documents</field>
         <field name="type">ir.actions.act_window</field>
